@@ -1,0 +1,11 @@
+name: mlModel1 Example
+on: 
+    workflow_dispatch:    
+    
+
+jobs:
+    echo:
+        runs-on: self-hosted
+        steps:
+            - name: Show the trigger 
+              run: echo "event"
